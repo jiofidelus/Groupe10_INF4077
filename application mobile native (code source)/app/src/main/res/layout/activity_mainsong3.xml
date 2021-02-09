@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Mainsong3Activity">
+    <LinearLayout
+        android:id="@+id/gopagevideo"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/ad"
+        android:clickable="true"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="INFORMATION ET CONSEIL"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textViewVersion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="audio"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+    <!-- add Camera Button to open the Camera-->
+
+
+    <Button
+        android:id="@+id/button_sound4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bg"
+        android:layout_marginTop="12dp"
+        android:onClick="playSound"
+        android:text="1-C'est quoi le choléra ?"
+        android:textColor="#ffff"
+        tools:layout_editor_absoluteY="389dp" />
+
+    <Button
+        android:id="@+id/button_sound5"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bg"
+        android:layout_marginTop="12dp"
+        android:onClick="playSound"
+        android:text="2-Syntomes"
+        android:textColor="#ffff"
+        tools:layout_editor_absoluteY="389dp" />
+
+    <Button
+        android:id="@+id/button_sound6"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bg"
+        android:layout_marginTop="12dp"
+        android:onClick="playSound"
+        android:text="3-Traitement"
+        android:textColor="#ffff"
+        tools:layout_editor_absoluteY="389dp" />
+
+
+
+
+</LinearLayout>

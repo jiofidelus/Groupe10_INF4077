@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Main2Activity">
+    <LinearLayout
+        android:id="@+id/gopagevideo"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/consultation"
+        android:clickable="true"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="CONSULTATION EN LIGNE"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffff" />
+
+            <TextView
+                android:id="@+id/textViewVersion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="Prendre une photo/video"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffff" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+    <!-- add Camera Button to open the Camera-->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/camera_button"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/bg"
+        android:textColor="#ffff"
+        android:text="Prendre une photo" />
+
+    <!-- add ImageView to display the captured image-->
+    <ImageView
+        android:layout_marginTop="70dp"
+        android:layout_width="350dp"
+        android:layout_marginLeft="15dp"
+        android:layout_height="450dp"
+        android:id="@+id/click_image"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PREDRE UNE PHOTO"
+        android:layout_marginTop="550dp"
+        app:drawableTint="#FFFFFF" />
+</LinearLayout>
