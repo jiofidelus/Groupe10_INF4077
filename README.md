@@ -76,6 +76,13 @@ $ git push heroku master
 
 
 -en local
+cloner le dossier "excutable backend (jar)"
+importer la base de donne "localhost.sql"
 
+les configuration mysql
+host:localhost
+port:3306
+bd name:tpapplicationm1
+server.port=8080 de springboot
 
-
+------lancer le fichir .tpprojetbien-0.0.1-SNAPSHOT.jar
