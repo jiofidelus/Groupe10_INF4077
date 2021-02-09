@@ -85,4 +85,9 @@ port:3306
 bd name:tpapplicationm1
 server.port=8080 de springboot
 
-------lancer le fichir .tpprojetbien-0.0.1-SNAPSHOT.jar
+lancer le fichir .tpprojetbien-0.0.1-SNAPSHOT.jar
+
+
+6-les videos de presentation 
+
+ouvrir le dossier video
