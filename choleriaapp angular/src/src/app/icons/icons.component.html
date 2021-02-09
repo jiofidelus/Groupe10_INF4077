@@ -1,0 +1,114 @@
+<br>
+<br>
+<div>
+  <h1 text-align="center"> Enregistrer un patient</h1> 
+
+</div>
+<br>
+<div class="container">
+    <div class="raw">
+      <div class="col-md-8">
+  <form novalidate #f="ngForm" (ngSubmit)="onregister(f.value)">
+    <div class="form-group">
+      <label><b>Nom</b></label>
+       <input type="text"    name="nom" id="UserfirstName" class="form-control" >
+       <div class="invalid-feedback">
+       <span>Entrer votre Nom </span>
+    </div>
+       <label>Prenom</label>
+      <input type="text"    name="nom" id="UserlastName" class="form-control" required >
+      <div class="invalid-feedback">
+        <span >Entrer votre Prénom </span>
+     </div>
+      <label>Age </label>
+      <input type="number"  name="age" id="UserAge" class="form-control" required>
+      <div class="invalid-feedback">
+        <span >Entrer votre Age </span>
+     </div>
+      <label>Email </label>
+      <input type="email"   name="email" id="UserEmail" placeholder="nganouespoir@yahoo.fr" class="form-control" >
+      <div class="invalid-feedback">
+        <span > Entrer votre email</span>
+     </div>     
+     <div class="invalid-feedback">
+      <span > Email invalide </span>
+   </div>     
+      <label>Tel</label>
+      <input type="text" ngModel name="telephone" id="UserTel" class="form-control">
+      <label>Mot de Passe</label>
+      <input type="password" ngModel name="telephone" id="UserTel" class="form-control">
+      <label>Sexe :</label>
+      <input id="billing-no" type="radio" name="sexe" value="Masculin" ng-checked="person.sexe == 'masculin'" >M
+      <input id="billing-yes" type="radio" name="sexe" value="Feminin" ng-checked="person.sexe == 'feminin'" >F
+      <br>
+      <label>Contact D'urgence</label>
+      <input type="text" ngModel name="contact" id="UserContact" class="form-control">
+      <div class="invalid-feedback">
+        <span >Numéro d'urgence obligatoire </span>
+     </div>
+      <label>Ville</label>
+      <select ngModel name="Ville" class="form-control">
+        <option value="D">Douala</option>
+        <option value="B">Bafoussam</option>
+        <option value="M">Maroua</option>
+        <option value="G">Garoua</option>
+        <option value="Y">Yaoundé</option>
+        <option value="N">Ngounderé</option>
+        </select>
+        <label>Etat de Santé</label>
+      <select ngModel name="Etat" class="form-control">
+        <option value="M">Malade</option>
+        <option value="S">Saint</option>
+        <option value="D">Decédé</option>
+      </select>
+      <br>
+      <button class="btn btn-primary" type="submit">Enregistrer</button>
+      <button type="button" class="btn btn-danger" >Annuler</button>
+    </div>
+  </form>
+  </div>
+  </div>
+  <div>
+    <h1 text-align="center"> Enregistrer un Médecin</h1> 
+  
+  </div>
+  <br>
+  <div class="container">
+      <div class="raw">
+        <div class="col-md-8">
+    <form #userForm="ngForm" (ngSubmit)="onregister(f.value)">
+      <div class="form-group">
+        <label><b>Nom</b></label>
+         <input type="text" ngModel name="userName" id="UserName" class="form-control">
+        <label>Prenom</label>
+        <input type="text" ngModel name="userPreName" id="UserPreName" class="form-control">
+        <label>Email </label>
+        <input type="text" ngModel name="userEmail" id="UserEmail" placeholder="nganouespoir@yahoo.fr" class="form-control">
+        <label>Tel</label>
+        <input type="text" ngModel name="userTel" id="UserTel" class="form-control">
+        <br>
+        <label>Sexe :</label>
+        <input id="billing-no" type="radio" name="sexe" value="Masculin" ng-checked="person.sexe == 'masculin'" >M
+        <input id="billing-yes" type="radio" name="sexe" value="Feminin" ng-checked="person.sexe == 'feminin'" >F
+        <br>
+        <select ngModel name="Ville" class="form-control">
+          <option value="D">Douala</option>
+          <option value="B">Bafoussam</option>
+          <option value="M">Maroua</option>
+          <option value="G">Garoua</option>
+          <option value="Y">Yaoundé</option>
+          <option value="N">Ngounderé</option>
+          </select>
+          <label>Spécialité</label>
+        <select ngModel name="Spécialité" class="form-control">
+          <option value="M"></option>
+          <option value="S"></option>
+          <option value="D"></option>
+        </select>
+        <br>
+        <button class="btn btn-primary">Enregistrer</button>
+        <button type="button" class="btn btn-danger" >Annuler</button>
+      </div>
+    </form>
+    </div>
+  </div>
