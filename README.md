@@ -1,6 +1,28 @@
 # Groupe10_INF4077
 
 PROJET INF4077
+
+-installation des apk
+    
+    les apk des application mobile se trouvent dans le dosier /apk 
+      *pour la version ionic (coleriapp ionic.apk)les identifaint de test sont:user- nganouespoir@yahoo.fr  password- esp123456789
+      *la version android native est coleriapp native.apk
+
+
+1.instalation de la version angular 
+-intaller  node js
+-cloner le dossier "choleriaapp angular"
+-installer les package avec "npm install"
+- lancer lapplication avec "ng serve "
+
+2.intallation de la version ionic 
+-intaller  node js
+-intaller  ionic 5
+-cloner le dossier "choleriaapp angular"
+-installer les package avec "npm install"
+-lancer lapplication avec "ionic serve"
+
+
 I-Description du projet
 
 Le Choléra est une maladie bactérienne  qui menasse le monde depuis les décennies ; Cette maladie lorsqu’il n’est pas surveiller provoque de grave catastrophe. Pour résoudre ce problème,nous allons développés une application qui doit permettre une surveillance rapide et efficace à temps réel du choléra dans le Cameroun ;Afin de pouvoir détecte les zones les plus risquées. Notre application doit s’appelle Choleraapp( qui signifie application sur le choléra) ;elle doit permettre de détecter les zones touchés par le choléra ceci grâce au données fournis par l’utilisateur.
@@ -48,16 +70,4 @@ V- Les Entités de l’application
     
     
     
-    -installation des apk
     
-    les apk des application mobile se trouvent dans le dosier /apk 
-      *pour la version ionic (coleriapp ionic.apk)les identifaint de test sont:user- nganouespoir@yahoo.fr  password- esp123456789
-      *la version android native est coleriapp native.apk
-
-
-instalation de la version angular 
-
-cloner le dossier "choleriaapp angular"
-
-1-installer les package avec "npm install"
-2- lancer lapplication avec ng serve 
