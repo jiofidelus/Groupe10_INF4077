@@ -51,5 +51,5 @@ V- Les Entités de l’application
     -installation des apk
     
     les apk des application mobile se trouvent dans le dosier /apk 
-      *pour la version ionic les identifaint de test sont:user- nganouespoir@yahoo.fr  password- esp123456789
-      *la version android native est 
+      *pour la version ionic (coleriapp ionic.apk)les identifaint de test sont:user- nganouespoir@yahoo.fr  password- esp123456789
+      *la version android native est coleriapp native.apk
