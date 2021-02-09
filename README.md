@@ -42,4 +42,14 @@ V- Les Entités de l’application
     • Personne : une personne ici peut être soit un médecin, soit un patient et ils pourront effectués des taches précises.
     • Consultation : Cette entité doit permettre à un Patient de se faire consulter par un médecin.
     • User: Un user est un utilisateur du système
-    • Droit: Cette entité doit nous permettre de donner les droits d’accès à chaque user pour des mesures de sécurité.
+    • Droit: Cette entité doit nous permettre de donner les droits d’accès à chaque user pour des mesures de sécurit
+    
+    
+    
+    
+    
+    -installation des apk
+    
+    les apk des application mobile se trouvent dans le dosier /apk 
+      *pour la version ionic les identifaint de test sont:user- nganouespoir@yahoo.fr  password- esp123456789
+      *la version android native est 
