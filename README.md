@@ -2,25 +2,26 @@
 
 PROJET INF4077
 
--installation des apk
+1.installation des apk
     
     les apk des application mobile se trouvent dans le dosier /apk 
       *pour la version ionic (coleriapp ionic.apk)les identifaint de test sont:user- nganouespoir@yahoo.fr  password- esp123456789
       *la version android native est coleriapp native.apk
 
 
-1.instalation de la version angular 
--intaller  node js
--cloner le dossier "choleriaapp angular"
--installer les package avec "npm install"
-- lancer lapplication avec "ng serve "
+2.instalation de la version angular
 
-2.intallation de la version ionic 
--intaller  node js
--intaller  ionic 5
--cloner le dossier "choleriaapp angular"
--installer les package avec "npm install"
--lancer lapplication avec "ionic serve"
+*intaller  node js
+*cloner le dossier "choleriaapp angular"
+*installer les package avec "npm install"
+*lancer lapplication avec "ng serve "
+
+3.intallation de la version ionic 
+*intaller  node js
+*intaller  ionic 5
+*cloner le dossier "choleriaapp angular"
+*installer les package avec "npm install"
+*lancer lapplication avec "ionic serve"
 
 
 I-Description du projet
