@@ -53,3 +53,11 @@ V- Les Entités de l’application
     les apk des application mobile se trouvent dans le dosier /apk 
       *pour la version ionic (coleriapp ionic.apk)les identifaint de test sont:user- nganouespoir@yahoo.fr  password- esp123456789
       *la version android native est coleriapp native.apk
+
+
+instalation de la version angular 
+
+cloner le dossier "choleriaapp angular"
+
+1-installer les package avec "npm install"
+2- lancer lapplication avec ng serve 
